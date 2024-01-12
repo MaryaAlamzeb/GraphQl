@@ -17,7 +17,3 @@ type Mutation {
 	createAuthor(name: String!, age: Int): Author!
 }
 
-type Query {
-	findAllAuthors: [Author]!
-	countAuthors: Long!
-}
